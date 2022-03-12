@@ -289,6 +289,18 @@ img {
   display: block;
 }
 
+
+.subhed {
+  font-size: 2rem;
+      font-family: 'Carter One', cursive;
+      color: #8b8680;
+      padding: 0rem;
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+      margin: 0rem;
+}
+
+
 .dividers {
  padding-right: 50%;
  padding-left: 40%; 
@@ -433,7 +445,10 @@ img {
   /*padding: 1rem;*/
 
 }
-
+.center h4 {
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
 
 
 th, td {
@@ -480,6 +495,15 @@ th, td {
   padding: 1rem;
   width: 100%;
   transition: all 0.5s;
+  color: #fff;
+}
+
+.button-two a {
+  color: #fff;
+}
+
+.button-two a:visited {
+  color: #add8e6;
 }
 
 
@@ -540,7 +564,7 @@ th, td {
 }
 
 .monolink a:visited {
-  color: white;
+  color: purple;
   background-color: yellow;
 }
 
@@ -550,16 +574,18 @@ th, td {
 
 .monolink1 a {
   font-family: monospace;
+  color: #693089;
 }
 
 .monolink1 a:visited {
-  color: purple;
+  color: #693089 !important;
   background-color: yellow;
 }
 
 
 .tftable {
   color: #f7def3;
+  font-size: 1.5rem;
 }
 
 
