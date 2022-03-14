@@ -36,7 +36,9 @@ h1 {
   text-align: center;
   padding: 0rem;
   margin: 0rem;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
+  max-width: 100%;
+  line-height: 5rem;
 }
 
 h2 {
@@ -261,6 +263,15 @@ p {
   }
 }
 
+
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .patch {
+    width: 75%;
+    max-width: 60rem;
+  }
+}
+
 a:visited {
   color: #ead3e5;
 }
@@ -301,7 +312,7 @@ img {
 }
 
 .subhed {
-  
+
 }
 
 
@@ -439,7 +450,7 @@ img {
 }
 
 .patch {
-  max-width: 400px;
+  max-width: 100%;
   padding: 0.1rem;
   display: block;
   align-content: center;
