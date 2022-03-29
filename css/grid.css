@@ -613,6 +613,16 @@ th, td {
   font-size: 1.5rem;
 }
 
+.surveyshare a{
+  color: purple;
+
+}
+
+.surveyshare a:visited {
+  color: purple;
+  background-color: yellow;
+}
+
 
 #9260a5
 #ead3e5
